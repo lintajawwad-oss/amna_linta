@@ -1,0 +1,23 @@
+Whats interactive rebase?
+
+Interactive rebase lets you rewrite Git history.
+
+Run: git rebase -i <commit-hash>
+
+You can reorder, squash, edit, or drop commits.
+
+Useful for cleaning commit history before pushing.
+
+What problem does it solve?
+
+Interactive rebase solves these problems:
+
+Messy commit history with too many small or unclear commits.
+
+Wrong or unclear commit messages.
+
+Commits made in the wrong order.
+
+Need to combine related commits (squash) into one.
+
+Removing mistakes or unnecessary commits before sharing.
